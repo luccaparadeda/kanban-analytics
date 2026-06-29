@@ -1,0 +1,12 @@
+[project]
+name = "kanban-analytics"
+version = "0.1.0"
+description = "Streamlit dashboard of Kanban flow metrics (throughput, cycle time, WIP, work item age) for a Linear team."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.0.4",
+    "requests>=2.34.2",
+    "streamlit>=1.58.0",
+]
